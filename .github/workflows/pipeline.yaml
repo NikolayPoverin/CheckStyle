@@ -24,6 +24,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Check style project
-        run:
+        run: |
           pip install pycodestyle
           pycodestyle .
